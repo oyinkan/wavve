@@ -1,0 +1,131 @@
+@media (max-width:600px) {
+    .navbar-container {
+      width: 100%;
+    }
+    .navbar > .navbar-button {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .navbar > .navbar-button > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    /* .navbar > .navbar-button > label:hover,
+    .navbar  #navbar-check:checked ~ .navbar-button > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    } */
+    .navbar > .navbar-button > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .navbar > .navbar-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #fff;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .navbar > .navbar-links > a {
+      display: block;
+    }
+    .navbar > #navbar-check:not(:checked) ~ .navbar-links {
+      height: 0px;
+    }
+    .navbar > #navbar-check:checked ~ .navbar-links {
+      height: calc(50vh - 50px);
+      overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+  header .get-started {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .d-flex.social-links {
+    display: flex!important;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 768px) {
+  .d-flex.social-links img {
+    height: 8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .row .col-1-of-2,
+  .row .col-1-of-3,
+  .row .col-1-of-4,
+  .d-flex .half,
+  .services-wrapper p, 
+  .howitworks-div p,
+  .one-sixth,
+  .one-fourth,
+  .newsletter-wrapper p {
+    width: auto;
+  }
+  .newsletter-wrapper form i {
+    left: 2rem;
+  }
+  .header {
+    background-position: unset;
+  }
+  .header h1 {
+    font-size: 55px;
+  }
+  .row [class^="col"]:not(:last-child) {
+    margin-right: 0;
+  }
+  footer .row [class^="col"]:not(:last-child) {
+    margin-right: 6rem;
+  }
+  .newsletter-wrapper .d-flex {
+    display: block;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header {
+    padding-bottom: 23rem;
+  }
+  .header h1,
+  .header p {
+    width: auto;
+  }
+  .howitworks-div {
+    padding: 5rem 2rem 9rem 2rem;
+  }
+  .d-flex.social-links {
+    display: block;
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 991px) {
+  .row [class^="col"]:not(:last-child) {
+    margin-right: 4rem;
+  } 
+  .howitworks-image {
+    padding: 53.5rem 0;
+  }
+  header .get-started {
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .newsletter-wrapper .form-control {
+    width: 80%;
+  }
+  .newsletter-wrapper form i {
+    left: 12.5rem;
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="338" viewBox="0 0 1440 338">
+    <defs>
+        <linearGradient id="prefix__b" x1="71.792%" x2=".267%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="prefix__d" x1="100%" x2=".267%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <path id="prefix__a" d="M0 0H1440V338H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="prefix__c" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <use fill="#0359FF" xlink:href="#prefix__a"/>
+        <path fill="url(#prefix__b)" d="M1486 1163c327.505 0 593-265.495 593-593S1813.505-23 1486-23 893 242.495 893 570s265.495 593 593 593zm0-200c-217.048 0-393-175.952-393-393s175.952-393 393-393 393 175.952 393 393-175.952 393-393 393z" mask="url(#prefix__c)" opacity=".2"/>
+        <path fill="url(#prefix__d)" d="M-19 368c327.505 0 593-265.495 593-593S308.505-818-19-818s-593 265.495-593 593 265.495 593 593 593zm0-200c-217.048 0-393-175.952-393-393s175.952-393 393-393 393 175.952 393 393S198.048 168-19 168z" mask="url(#prefix__c)" opacity=".2"/>
+    </g>
+</svg>
