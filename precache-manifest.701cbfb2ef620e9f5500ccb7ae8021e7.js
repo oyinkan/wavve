@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "159eeda63c373e4487080b236c4c0b39",
+    "revision": "5ed7f119591ac2f1a7760ca7c0c9236c",
     "url": "/wavve/index.html"
   },
   {
-    "revision": "b19af306aafe2761263f",
-    "url": "/wavve/static/css/main.be0a5cee.chunk.css"
+    "revision": "aef5c0196a7de3a9d240",
+    "url": "/wavve/static/css/main.94485a32.chunk.css"
   },
   {
     "revision": "645d96cfbdf7a98564a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wavve/static/js/2.259711ce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b19af306aafe2761263f",
-    "url": "/wavve/static/js/main.1d475942.chunk.js"
+    "revision": "aef5c0196a7de3a9d240",
+    "url": "/wavve/static/js/main.17f34df2.chunk.js"
   },
   {
     "revision": "0a82810d96460a3352c2",
