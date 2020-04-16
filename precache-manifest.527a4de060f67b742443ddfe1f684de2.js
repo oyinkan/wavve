@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ed7f119591ac2f1a7760ca7c0c9236c",
+    "revision": "30746cac54d0a4a17dff714a3c7d8f2e",
     "url": "/wavve/index.html"
   },
   {
-    "revision": "aef5c0196a7de3a9d240",
-    "url": "/wavve/static/css/main.94485a32.chunk.css"
+    "revision": "ce6c28070ea8b9ffa949",
+    "url": "/wavve/static/css/main.17c6ad74.chunk.css"
   },
   {
-    "revision": "645d96cfbdf7a98564a5",
-    "url": "/wavve/static/js/2.259711ce.chunk.js"
+    "revision": "e6b77a253924cca62d51",
+    "url": "/wavve/static/js/2.d463b3f3.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/wavve/static/js/2.259711ce.chunk.js.LICENSE.txt"
+    "url": "/wavve/static/js/2.d463b3f3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aef5c0196a7de3a9d240",
-    "url": "/wavve/static/js/main.17f34df2.chunk.js"
+    "revision": "ce6c28070ea8b9ffa949",
+    "url": "/wavve/static/js/main.a3fb3ce8.chunk.js"
   },
   {
     "revision": "0a82810d96460a3352c2",
@@ -154,6 +154,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "70d2a1dcbfbca4b22fcd55cf667128d2",
     "url": "/wavve/static/media/linkedin.70d2a1dc.svg"
+  },
+  {
+    "revision": "3ffbeb825a1ebcc2bbffcf21e3615f23",
+    "url": "/wavve/static/media/menu.3ffbeb82.svg"
   },
   {
     "revision": "86f5643d7300692a311621ac0cb3d833",
