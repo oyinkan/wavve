@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wavve/static/css/main.17c6ad74.chunk.css",
+    "main.css": "/wavve/static/css/main.0d03c6ee.chunk.css",
     "main.js": "/wavve/static/js/main.a3fb3ce8.chunk.js",
     "main.js.map": "/wavve/static/js/main.a3fb3ce8.chunk.js.map",
     "runtime-main.js": "/wavve/static/js/runtime-main.9cf2105d.js",
@@ -8,9 +8,9 @@
     "static/js/2.d463b3f3.chunk.js": "/wavve/static/js/2.d463b3f3.chunk.js",
     "static/js/2.d463b3f3.chunk.js.map": "/wavve/static/js/2.d463b3f3.chunk.js.map",
     "index.html": "/wavve/index.html",
-    "precache-manifest.527a4de060f67b742443ddfe1f684de2.js": "/wavve/precache-manifest.527a4de060f67b742443ddfe1f684de2.js",
+    "precache-manifest.a5bb42cc80d71c11863451711b9602df.js": "/wavve/precache-manifest.a5bb42cc80d71c11863451711b9602df.js",
     "service-worker.js": "/wavve/service-worker.js",
-    "static/css/main.17c6ad74.chunk.css.map": "/wavve/static/css/main.17c6ad74.chunk.css.map",
+    "static/css/main.0d03c6ee.chunk.css.map": "/wavve/static/css/main.0d03c6ee.chunk.css.map",
     "static/js/2.d463b3f3.chunk.js.LICENSE.txt": "/wavve/static/js/2.d463b3f3.chunk.js.LICENSE.txt",
     "static/media/app-store.svg": "/wavve/static/media/app-store.726e9f9b.svg",
     "static/media/button-app.png": "/wavve/static/media/button-app.d7eb7d81.png",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.9cf2105d.js",
     "static/js/2.d463b3f3.chunk.js",
-    "static/css/main.17c6ad74.chunk.css",
+    "static/css/main.0d03c6ee.chunk.css",
     "static/js/main.a3fb3ce8.chunk.js"
   ]
 }
