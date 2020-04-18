@@ -6,12 +6,25 @@ html {
 }
 body {
     margin: 0px;
-    font-family: 'segoe ui';
+    font-family: 'Inter', sans-serif;
 } 
+h1 {
+    font-size: 6.4rem;
+    font-weight: bold;
+    line-height: 1.17;
+    letter-spacing: -2.67px;
+}
 h3 {
     font-size: 3.6rem;
     font-weight: 600;
     line-height: 1.33;
+}
+p {
+    font-size: 2rem;
+    line-height: 1.8;
+}
+.text-center {
+    text-align: center;
 }
 
 /* Header */
@@ -23,7 +36,7 @@ h3 {
 .navbar {
     height: 50px;
     width: 100%;
-    background-color: #fff;
+    /* background-color: #fff; */
     position: relative;
 } 
 .navbar > .navbar-header {
@@ -31,10 +44,15 @@ h3 {
 }
 .navbar > .navbar-header > .navbar-brand {
     display: inline-block;
-    font-size: 22px;
-    color: #0359ff;
+    font-size: 36px;
+    font-weight: bold;
     padding: 10px 10px 10px 10px;
+    margin-top: -10px;
 }  
+.navbar > .navbar-header > .navbar-brand a {
+    color: #0359ff;
+    text-decoration: none;
+}
 .navbar > .navbar-button {
     display: none;
 } 
@@ -53,7 +71,7 @@ h3 {
     padding-left: 4rem;
 }
 .navbar > .navbar-links > a:hover {
-    font-weight: bold;
+    color: #0359ff;
 }
 .navbar > #navbar-check {
     display: none;
@@ -158,13 +176,14 @@ header {
     padding: 1rem 4.5rem;
     margin-left: 10px;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 
 /* Main page */
 .services-wrapper {
     padding: 4rem 0;
 }
-.banking {
+.banking {  
     border-radius: 2000px;
     background-color: rgba(246, 184, 154, 0.1);
     padding: 5px 2rem;
@@ -305,10 +324,13 @@ header {
     height: 6rem;
     width: 100%;
     padding-left: 5rem;
+    -webkit-appearance: none;
+    border: 0;
 }
 .newsletter-wrapper form i {
     top: 2.1rem;
     color: #183b56;
+    -webkit-appearance: none;
 }
 .newsletter-wrapper .get-started {
     position: relative;
@@ -344,4 +366,97 @@ footer hr {
     border: 1px solid #d9dce3;
     margin-top: -1.5rem;
     margin-bottom: 3rem;
+}
+
+/* About */
+.about-header .navbar > .navbar-header > .navbar-brand a,
+.about-header .navbar > .navbar-links > a,
+.about-header h1,
+.about-header p {
+    color: #fff;
+}
+.about-header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 2rem;
+}
+.about-header .about-wrapper {
+    padding: 10rem 0;
+    padding-bottom: 30rem;
+}
+.about-header p {
+    width: 50%;
+    margin: auto;
+    margin-top: -3.5rem;
+}
+.container-fluid {
+    width: 85%;
+    margin: auto;
+}
+.aboutus-container {
+    padding: 4rem 0 6rem 0;
+}
+.aboutus-container p.about-us {
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #0359ff;
+}
+.aboutus-container h3 {
+    letter-spacing: 0.2px;
+    color: #031942;
+    width: 90%;
+    margin-top: 0;
+}
+.aboutus-container p {
+    font-size: 18px;
+    line-height: 1.78;
+    color: #5a7184;
+    margin-top: 0;
+    width: 95%;
+}
+.company-banner {
+    padding: 39rem 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.values-wrapper {
+    padding: 6rem 0;
+}
+.values-wrapper h3 {
+    letter-spacing: 0.2px;
+    color: #031942;
+    margin-bottom: 0;
+}
+.values-wrapper p {
+    font-size: 18px;
+    line-height: 1.78;
+    color: #5a7184;
+}
+.mb-40 {
+    margin-bottom: 4rem;
+}
+.values-div {
+    width: 62%;
+    margin: auto;
+}
+.values-div .row:not(:last-child) {
+    margin-bottom: 2rem;
+}
+.single-value .title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+    color: #031942;
+    margin-bottom: 0;
+}
+.single-value .details {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #5a7184;
+}
+.mt-20 {
+    margin-top: 2rem;
 }

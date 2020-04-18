@@ -22,7 +22,7 @@
       display: block;
       width: 25px;
       height: 10px;
-      border-top: 2px solid #eee;
+      border-top: 2px solid #0359ff;
     }
     .navbar > .navbar-links {
       position: absolute;
@@ -45,11 +45,43 @@
       height: calc(50vh - 50px);
       overflow-y: auto;
     }
+    .about-header .navbar > .navbar-links {
+      background: #0359ff;
+    }
+    .about-header .navbar > .navbar-button > label {
+      margin-top: 5px;
+    }
 }
-
-@media screen and (max-width: 450px) {
-  header .get-started {
-    margin-left: 0;
+@media screen and (max-width: 400px) {
+  .header form i {
+    left: 2rem!important;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 430px) {
+  .header form i {
+    left: 3.5rem!important;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 500px) {
+  .header form i {
+    left: 5rem!important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header .d-flex {
+    display: block;
+    text-align: center;
+  }
+  .header .get-started {
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .header form {
+    justify-content: center;
+  }
+  .header .get-started {
+    width: 100%;
   }
 }
 
@@ -77,13 +109,29 @@
     width: auto;
   }
   .newsletter-wrapper form i {
-    left: 2rem;
+    left: 3rem;
   }
   .header {
-    background-position: unset;
+    background:none;
+    padding-bottom: 0!important;
+  }
+  .header .d-flex {
+    width: 80%;
+    margin: auto;
+  }
+  .header .mt-160 {
+    margin-top: 0;
   }
   .header h1 {
     font-size: 55px;
+  }
+  .services-wrapper,
+  .header h1,
+  .header p {
+    text-align: center;
+  }
+  .services-wrapper .d-flex {
+    display: block;
   }
   .row [class^="col"]:not(:last-child) {
     margin-right: 0;
@@ -93,6 +141,19 @@
   }
   .newsletter-wrapper .d-flex {
     display: block;
+  }
+  .about-header p {
+    width: 80%;
+  }
+  .about-header {
+    padding-top: 1rem;
+  }
+  .about-header .about-wrapper {
+    padding: 8rem 0;
+    padding-bottom: 25rem;
+  }
+  .company-banner {
+    padding: 17rem 0;
   }
 }
 @media screen and (max-width: 991px) {
@@ -114,12 +175,6 @@
   .row [class^="col"]:not(:last-child) {
     margin-right: 4rem;
   } 
-  .howitworks-image {
-    padding: 53.5rem 0;
-  }
-  header .get-started {
-    margin-left: 0;
-  }
 }
 @media screen and (min-width: 1100px) {
   .newsletter-wrapper .form-control {
@@ -129,3 +184,12 @@
     left: 12.5rem;
   }
 }
+@media screen and (min-width: 1370px) {
+  .newsletter-wrapper form i {
+    left: 14.5rem;
+  }
+  .newsletter-wrapper .get-started {
+    margin-left: -17rem;
+  }
+}
+

@@ -57,7 +57,7 @@ export default class Main extends Component {
                                     <div className="mt-100">
                                         <h2>Completely paperless.<br/> Sign up anywhere.</h2>
                                         <p>No more joining queues at bank branches.<br/>Joining Wavvemoney is easy:<br/>Download the app on Google Play or the App Store.</p>
-                                        <div class="d-flex">
+                                        <div className="d-flex">
                                             <div>
                                                 <a href="" target="_blank">
                                                     <img src={appstore} className="img-fluid" alt="appstore icon" />
@@ -82,7 +82,7 @@ export default class Main extends Component {
                     <div className="howitworks-wrapper">
                         <div className="d-flex">
                             <div className="half">
-                                <div style={{background: `url(${howitworks})`}} className="howitworks-image"></div>
+                                <div style={{background: `url(${howitworks})`, backgroundSize: "cover"}} className="howitworks-image"></div>
                             </div>
                             <div className="half">
                                 <div className="howitworks-div">

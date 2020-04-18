@@ -33,15 +33,18 @@ export default class Header extends Component {
                                     <div className="mt-160">
                                         <h1>The better way to <span>bank</span> money</h1>
                                         <p>Spend, save and manage your money, all in one place. Enjoy zero fees, and send & recieve money seamlessly across Africa</p>
-                                        <form onSubmit={this.handleSubmit}>
-                                            <input 
-                                                type="email" 
-                                                className="form-control" 
-                                                value={this.state.userEmail} 
-                                                onChange={this.handleChange}
-                                                placeholder="Type your e-mail" 
-                                            />
-                                            <i className="fa fa-envelope"></i>
+                                        <form className="d-flex" onSubmit={this.handleSubmit}>
+                                            <div>
+                                                <i className="fa fa-envelope"></i>
+                                                <input 
+                                                    type="email" 
+                                                    className="form-control" 
+                                                    value={this.state.userEmail} 
+                                                    onChange={this.handleChange}
+                                                    placeholder="Type your e-mail" 
+                                                />
+                                                
+                                            </div>
                                             <input 
                                                 type="submit" 
                                                 value="Get Started" 

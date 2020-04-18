@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import twitter from './../images/twitter.svg';
 import linkedin from './../images/linkedin.svg';
 import facebook from './../images/facebook.svg';
@@ -8,24 +9,24 @@ import buttonplay from './../images/button-play.png';
 export default class Footer extends Component {
     render() {
         return(
-            <div>
+            <React.Fragment>
                 <footer>
                     <div className="container">
                         <div className="row">
                             <div className="col-1-of-4">
                                 <p className="fairly-bold">Company</p>
                                 <div>
-                                    <p><a href="">About us</a></p>
-                                    <p><a href="">FAQs</a></p>
-                                    <p><a href="">Blog</a></p>
-                                    <p><a href="">Contact us</a></p>
+                                    <p><Link to="">About us</Link></p>
+                                    <p><Link to="">FAQs</Link></p>
+                                    <p><Link to="">Blog</Link></p>
+                                    <p><Link to="">Contact us</Link></p>
                                 </div>
                             </div>
                             <div className="col-1-of-4">
                                 <p>Legals</p>
                                 <div>
-                                    <p><a href="">Privacy Policy</a></p>
-                                    <p><a href="">Terms of Service</a></p>
+                                    <p><Link to="">Privacy Policy</Link></p>
+                                    <p><Link to="">Terms of Service</Link></p>
                                 </div>
                             </div>
                             <div className="col-1-of-4">
@@ -60,7 +61,7 @@ export default class Footer extends Component {
                         </div>
                     </div>
                 </footer>
-            </div>
+            </React.Fragment>
         )
     }
 }
