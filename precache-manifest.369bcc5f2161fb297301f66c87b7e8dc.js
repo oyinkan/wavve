@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3fdfdb9dc4e7730e2c9f626649f3b49",
+    "revision": "2a0c68a4f6609357ac2d1c0c79fd80f4",
     "url": "/wavve/index.html"
   },
   {
-    "revision": "73c63f323e1dffdf0c36",
-    "url": "/wavve/static/css/main.3e355c73.chunk.css"
+    "revision": "a845ec2a89aebfe50d47",
+    "url": "/wavve/static/css/main.8660fcb9.chunk.css"
   },
   {
-    "revision": "82a21d60c749e055ed1c",
-    "url": "/wavve/static/js/2.62e315b6.chunk.js"
+    "revision": "975e21af8de953a4f4b5",
+    "url": "/wavve/static/js/2.b5a4a5fc.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/wavve/static/js/2.62e315b6.chunk.js.LICENSE.txt"
+    "revision": "890b83c3b503af9a5630afd9ff112890",
+    "url": "/wavve/static/js/2.b5a4a5fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73c63f323e1dffdf0c36",
-    "url": "/wavve/static/js/main.ae85dd17.chunk.js"
+    "revision": "a845ec2a89aebfe50d47",
+    "url": "/wavve/static/js/main.73cc6576.chunk.js"
   },
   {
     "revision": "0a82810d96460a3352c2",
@@ -38,6 +38,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5dfaedc57720a93b61a2b524edb0cb08",
     "url": "/wavve/static/media/button-play.5dfaedc5.png"
+  },
+  {
+    "revision": "39d8cef232fcb23362120a7f72837f81",
+    "url": "/wavve/static/media/call-icon.39d8cef2.svg"
+  },
+  {
+    "revision": "834f2d42cf22d8596178da185d9a90fb",
+    "url": "/wavve/static/media/call.834f2d42.svg"
   },
   {
     "revision": "93461657d3ca44bce6532b2d67636da9",
@@ -156,6 +164,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wavve/static/media/google-play.638b4a45.svg"
   },
   {
+    "revision": "56f55d71774acba0565f1ecb7a8775ef",
+    "url": "/wavve/static/media/header-small.56f55d71.png"
+  },
+  {
     "revision": "d17f2797ea83f703b1afc5e836f19237",
     "url": "/wavve/static/media/header.d17f2797.png"
   },
@@ -176,6 +188,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wavve/static/media/menu.3ffbeb82.svg"
   },
   {
+    "revision": "a6c282cfc11afdb8a64c76f9891742af",
+    "url": "/wavve/static/media/message-icon.a6c282cf.svg"
+  },
+  {
     "revision": "86f5643d7300692a311621ac0cb3d833",
     "url": "/wavve/static/media/newsletter.86f5643d.svg"
   },
@@ -194,6 +210,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "08f95a251605097c91ac9b5aafc4ab83",
     "url": "/wavve/static/media/security.08f95a25.svg"
+  },
+  {
+    "revision": "c7055c72f00e35164409558e2729d4e2",
+    "url": "/wavve/static/media/support-icon.c7055c72.svg"
+  },
+  {
+    "revision": "9a675fdc913567e2139d663d6a3309ce",
+    "url": "/wavve/static/media/support.9a675fdc.svg"
   },
   {
     "revision": "8184b83d3f0196c718244edb2f2e39e0",
