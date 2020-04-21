@@ -14,10 +14,6 @@
       height: 50px;
       padding: 13px;
     }
-    /* .navbar > .navbar-button > label:hover,
-    .navbar  #navbar-check:checked ~ .navbar-button > label {
-      background-color: rgba(0, 0, 0, 0.3);
-    } */
     .navbar > .navbar-button > label > span {
       display: block;
       width: 25px;
@@ -42,8 +38,8 @@
       height: 0px;
     }
     .navbar > #navbar-check:checked ~ .navbar-links {
-      height: calc(50vh - 50px);
-      overflow-y: auto;
+      height: auto;
+      box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
     }
     .about-header .navbar > .navbar-links {
       background: #0359ff;
@@ -74,6 +70,9 @@
   }
   .header .get-started {
     margin-top: 1rem;
+  }
+  .header .form-control {
+    width: 100%;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 768px) {
@@ -187,6 +186,9 @@
   .header-small {
     display: block;
   }
+  footer p {
+    margin-top: 2.5rem;
+  }
 }
 @media screen and (max-width: 991px) {
   .header {
@@ -197,7 +199,7 @@
     width: auto;
   }
   .howitworks-div {
-    padding: 5rem 2rem 9rem 2rem;
+    padding: 5rem 1.5rem 9rem 1.5rem;
   }
   .d-flex.social-links {
     display: block;

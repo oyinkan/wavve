@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/wavve/static/css/main.8660fcb9.chunk.css",
-    "main.js": "/wavve/static/js/main.73cc6576.chunk.js",
-    "main.js.map": "/wavve/static/js/main.73cc6576.chunk.js.map",
+    "main.js": "/wavve/static/js/main.a07b6d23.chunk.js",
+    "main.js.map": "/wavve/static/js/main.a07b6d23.chunk.js.map",
     "runtime-main.js": "/wavve/static/js/runtime-main.9cf2105d.js",
     "runtime-main.js.map": "/wavve/static/js/runtime-main.9cf2105d.js.map",
-    "static/js/2.b5a4a5fc.chunk.js": "/wavve/static/js/2.b5a4a5fc.chunk.js",
-    "static/js/2.b5a4a5fc.chunk.js.map": "/wavve/static/js/2.b5a4a5fc.chunk.js.map",
+    "static/js/2.5feea97d.chunk.js": "/wavve/static/js/2.5feea97d.chunk.js",
+    "static/js/2.5feea97d.chunk.js.map": "/wavve/static/js/2.5feea97d.chunk.js.map",
     "index.html": "/wavve/index.html",
-    "precache-manifest.369bcc5f2161fb297301f66c87b7e8dc.js": "/wavve/precache-manifest.369bcc5f2161fb297301f66c87b7e8dc.js",
+    "precache-manifest.7ee2603b343a330078b874f95223e106.js": "/wavve/precache-manifest.7ee2603b343a330078b874f95223e106.js",
     "service-worker.js": "/wavve/service-worker.js",
     "static/css/main.8660fcb9.chunk.css.map": "/wavve/static/css/main.8660fcb9.chunk.css.map",
-    "static/js/2.b5a4a5fc.chunk.js.LICENSE.txt": "/wavve/static/js/2.b5a4a5fc.chunk.js.LICENSE.txt",
+    "static/js/2.5feea97d.chunk.js.LICENSE.txt": "/wavve/static/js/2.5feea97d.chunk.js.LICENSE.txt",
     "static/media/about.svg": "/wavve/static/media/about.64220c3f.svg",
     "static/media/app-store.svg": "/wavve/static/media/app-store.726e9f9b.svg",
     "static/media/button-app.png": "/wavve/static/media/button-app.d7eb7d81.png",
@@ -29,7 +29,6 @@
     "static/media/howitworks.png": "/wavve/static/media/howitworks.41da8ec5.png",
     "static/media/integrity.svg": "/wavve/static/media/integrity.e0dffa40.svg",
     "static/media/linkedin.svg": "/wavve/static/media/linkedin.70d2a1dc.svg",
-    "static/media/menu.svg": "/wavve/static/media/menu.3ffbeb82.svg",
     "static/media/message-icon.svg": "/wavve/static/media/message-icon.a6c282cf.svg",
     "static/media/newsletter.svg": "/wavve/static/media/newsletter.86f5643d.svg",
     "static/media/one.svg": "/wavve/static/media/one.b153d528.svg",
@@ -46,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9cf2105d.js",
-    "static/js/2.b5a4a5fc.chunk.js",
+    "static/js/2.5feea97d.chunk.js",
     "static/css/main.8660fcb9.chunk.css",
-    "static/js/main.73cc6576.chunk.js"
+    "static/js/main.a07b6d23.chunk.js"
   ]
 }
