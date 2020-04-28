@@ -1,0 +1,234 @@
+@media (max-width:600px) {
+    .navbar-container {
+      width: 100%;
+    }
+    .navbar > .navbar-button {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .navbar > .navbar-button > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .navbar > .navbar-button > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #0359ff;
+    }
+    .navbar > .navbar-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #fff;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .navbar > .navbar-links > a {
+      display: block;
+    }
+    .navbar > #navbar-check:not(:checked) ~ .navbar-links {
+      height: 0px;
+    }
+    .navbar > #navbar-check:checked ~ .navbar-links {
+      height: auto;
+      box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+    }
+    .about-header .navbar > .navbar-links {
+      background: #0359ff;
+    }
+    .about-header .navbar > .navbar-button > label {
+      margin-top: 5px;
+    }
+}
+@media screen and (max-width: 400px) {
+  .header form i {
+    left: 2rem!important;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 430px) {
+  .header form i {
+    left: 3.5rem!important;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 500px) {
+  .header form i {
+    left: 5rem!important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header .d-flex {
+    display: block;
+    text-align: center;
+  }
+  .header .get-started {
+    margin-top: 1rem;
+  }
+  .header .form-control {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .header form {
+    justify-content: center;
+  }
+  .header .get-started {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .d-flex.social-links {
+    display: flex!important;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 768px) {
+  .d-flex.social-links img {
+    height: 8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .row .col-1-of-2,
+  .row .col-1-of-3,
+  .row .col-1-of-4,
+  .d-flex .half,
+  .services-wrapper p, 
+  .howitworks-div p,
+  .one-sixth,
+  .one-fourth,
+  .newsletter-wrapper p {
+    width: auto;
+  }
+  h1 {
+    font-size: 5.4rem;
+    padding: 0 1rem;
+  }
+  .newsletter-wrapper form i {
+    left: 3rem;
+  }
+  .header {
+    background:none!important;
+    padding-bottom: 0!important;
+  }
+  .header .d-flex {
+    width: 80%;
+    margin: auto;
+  }
+  .header .mt-160,
+  .about-header p {
+    margin-top: 0;
+  }
+  .header h1 {
+    font-size: 55px;
+  }
+  .services-wrapper,
+  .header h1,
+  .header p {
+    text-align: center;
+  }
+  .services-wrapper .d-flex {
+    display: block;
+  }
+  .row [class^="col"]:not(:last-child) {
+    margin-right: 0;
+  }
+  footer .row [class^="col"]:not(:last-child) {
+    margin-right: 6rem;
+  }
+  .newsletter-wrapper .d-flex {
+    display: block;
+  }
+  .about-header p,
+  .values-wrapper.questions-wrapper p,
+  .contact-wrapper {
+    width: 80%;
+  }
+  .contact-wrapper {
+    margin-top: -20rem;
+    padding: 4rem 2rem;
+  }
+  .row [class^="col"] {
+    float: none;
+  }
+  .contact-wrapper .col-1-of-2 div {
+    margin-top: 1rem;
+  }
+  .contact-wrapper .row:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  .questions-div, 
+  .faq-accordion {
+    width: 95%;
+  }
+  .contact-wrapper span {
+    display: block;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .about-header {
+    padding-top: 1rem;
+  }
+  .about-header .about-wrapper {
+    padding: 8rem 0;
+    padding-bottom: 25rem;
+  }
+  .company-banner {
+    padding: 17rem 0;
+  }
+  .header-small {
+    display: block;
+  }
+  footer p {
+    margin-top: 2.5rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header h1,
+  .header p {
+    width: auto;
+  }
+  .howitworks-div {
+    padding: 5rem 1.5rem 9rem 1.5rem;
+  }
+  .d-flex.social-links {
+    display: block;
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 991px) {
+  .row [class^="col"]:not(:last-child) {
+    margin-right: 4rem;
+  } 
+  .questions-div, .faq-accordion {
+    width: 85%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .newsletter-wrapper .form-control {
+    width: 80%;
+  }
+  .newsletter-wrapper form i {
+    left: 12.5rem;
+  }
+}
+@media screen and (min-width: 1370px) {
+  .newsletter-wrapper form i {
+    left: 14.5rem;
+  }
+  .newsletter-wrapper .get-started {
+    margin-left: -17rem;
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+  .company-banner {
+    padding: 25rem 0;
+  }
+}

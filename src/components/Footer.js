@@ -7,6 +7,10 @@ import buttonapp from './../images/button-app.png';
 import buttonplay from './../images/button-play.png';
 
 export default class Footer extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return(
             <React.Fragment>
@@ -16,10 +20,10 @@ export default class Footer extends Component {
                             <div className="col-1-of-4">
                                 <p className="fairly-bold">Company</p>
                                 <div>
-                                    <p><Link to="">About us</Link></p>
-                                    <p><Link to="">FAQs</Link></p>
+                                    <p><Link to="/about">About us</Link></p>
+                                    <p><Link to="/faq">FAQs</Link></p>
                                     <p><Link to="">Blog</Link></p>
-                                    <p><Link to="">Contact us</Link></p>
+                                    <p><Link to="/contact">Contact us</Link></p>
                                 </div>
                             </div>
                             <div className="col-1-of-4">

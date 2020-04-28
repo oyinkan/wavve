@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import menu from './../images/menu.svg';
 import { Link } from 'react-router-dom';
 
 export default class Navbar extends Component {
     render() {
         return (
-            <div>
+            <React.Fragment>
                 <div className="navbar-container">
                     <nav className="navbar">
                         <input type="checkbox" id="navbar-check" />
@@ -14,18 +13,18 @@ export default class Navbar extends Component {
                         </div>
                         <div className="navbar-button">
                             <label htmlFor="navbar-check">
-                                <img src={menu} alt="menu icon" />
+                                <i className="fa fa-bars"></i>
                             </label>
                         </div>
                         <div className="navbar-links">
                             <Link to="/about">About us</Link>
-                            <Link to="">FAQ</Link>
+                            <Link to="/faq">FAQ</Link>
                             <Link to="">Blog</Link>
                             <Link to="/contact">Contact us</Link>
                         </div>
                     </nav>
                 </div>
-            </div>
+            </React.Fragment>
         )
     }
 }
