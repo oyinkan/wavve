@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wavve/static/css/main.8660fcb9.chunk.css",
-    "main.js": "/wavve/static/js/main.a07b6d23.chunk.js",
-    "main.js.map": "/wavve/static/js/main.a07b6d23.chunk.js.map",
+    "main.js": "/wavve/static/js/main.706aecaf.chunk.js",
+    "main.js.map": "/wavve/static/js/main.706aecaf.chunk.js.map",
     "runtime-main.js": "/wavve/static/js/runtime-main.9cf2105d.js",
     "runtime-main.js.map": "/wavve/static/js/runtime-main.9cf2105d.js.map",
     "static/js/2.5feea97d.chunk.js": "/wavve/static/js/2.5feea97d.chunk.js",
     "static/js/2.5feea97d.chunk.js.map": "/wavve/static/js/2.5feea97d.chunk.js.map",
     "index.html": "/wavve/index.html",
-    "precache-manifest.7ee2603b343a330078b874f95223e106.js": "/wavve/precache-manifest.7ee2603b343a330078b874f95223e106.js",
+    "precache-manifest.c00624b67c8c9b4c2e7a506467aa183d.js": "/wavve/precache-manifest.c00624b67c8c9b4c2e7a506467aa183d.js",
     "service-worker.js": "/wavve/service-worker.js",
     "static/css/main.8660fcb9.chunk.css.map": "/wavve/static/css/main.8660fcb9.chunk.css.map",
     "static/js/2.5feea97d.chunk.js.LICENSE.txt": "/wavve/static/js/2.5feea97d.chunk.js.LICENSE.txt",
@@ -24,9 +24,9 @@
     "static/media/facebook.svg": "/wavve/static/media/facebook.af61a863.svg",
     "static/media/four.svg": "/wavve/static/media/four.50190dc3.svg",
     "static/media/google-play.svg": "/wavve/static/media/google-play.638b4a45.svg",
-    "static/media/header-small.png": "/wavve/static/media/header-small.56f55d71.png",
-    "static/media/header.png": "/wavve/static/media/header.d17f2797.png",
-    "static/media/howitworks.png": "/wavve/static/media/howitworks.41da8ec5.png",
+    "static/media/header-small.png": "/wavve/static/media/header-small.ea39cd4b.png",
+    "static/media/header.png": "/wavve/static/media/header.33fd0c65.png",
+    "static/media/howitworks.png": "/wavve/static/media/howitworks.d5b1a2a8.png",
     "static/media/integrity.svg": "/wavve/static/media/integrity.e0dffa40.svg",
     "static/media/linkedin.svg": "/wavve/static/media/linkedin.70d2a1dc.svg",
     "static/media/message-icon.svg": "/wavve/static/media/message-icon.a6c282cf.svg",
@@ -47,6 +47,6 @@
     "static/js/runtime-main.9cf2105d.js",
     "static/js/2.5feea97d.chunk.js",
     "static/css/main.8660fcb9.chunk.css",
-    "static/js/main.a07b6d23.chunk.js"
+    "static/js/main.706aecaf.chunk.js"
   ]
 }
